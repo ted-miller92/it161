@@ -1,0 +1,262 @@
+/*Color pallete
+Saffron: #ECBE35
+Citron: #899414
+Alabaster: #DCE4D8
+Sage: #C6C69A
+Rifle Green: #455036
+*/
+html{
+    width:100%;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+body{
+    width:100%;
+    margin:0;
+    background-color:white;
+}
+main{
+    width:100%;
+    margin:10px auto 10px auto;
+    font-size:1.3em;
+    background-color:white;
+}
+a#homeLink{
+    text-decoration:none;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    color:#ECBE35;
+}
+aside a:hover{
+    color:#899414;
+}
+header h1 a:visited{
+    color:#455036;
+}
+h2{
+    color:#455036;
+}
+article{
+    background-color:white;
+    border-radius:0px;
+}
+article p{
+    display:block;
+    position:inherit;
+    margin:2% auto 2% auto;
+    font-size:1em;
+    max-width:90%;
+    color:#455036;
+}
+article h2{
+    display:block;
+    position:inherit;
+    font-size:1.5em;
+    margin:auto;
+    max-width:90%;
+}
+aside{
+    display:none;
+    background-color:#ECBE35;    
+}
+aside p{
+    text-align:center;
+}
+/*Forms styles*/
+.formElement{
+    margin:auto;
+    padding:0 2% 0 2%;
+    align-self:center;
+    max-width:100%;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    max-width:100%
+}
+input[type=checkbox]{
+    background-color:orange;
+}
+input[type=submit] {
+    padding:15px 20px;
+    color:#DCE4D8;
+    background:#455036; 
+    border:0 none;
+    cursor:pointer; 
+    transition-duration:0.3s;
+}
+input[type=submit]:hover{
+    background:#899414;
+    color:#DCE4D8;
+    transition-duration:0.3s;
+}
+label, text-area{
+    width:80%;
+    max-width:100%;
+}
+/*End forms Syles*/
+footer{
+    position:relative;
+    margin:0;
+    padding-top:2%;
+    padding-bottom:2%;
+    width:100%;
+    font-size:1.3em;
+    text-align:center;
+    background-color:#455036;
+}
+footer a{
+    color:#DCE4D8;
+}
+div#contactLauren{
+    display:block;
+}
+div#contactLauren a{
+    padding:20px;
+}
+div#contactTed{
+    color:white;
+    margin:30px 0 0 10px;
+    position:relative;
+    display:block;
+    text-align:center;
+}
+/*Tablet*/
+@media (min-width:480px)
+    and (max-width:1024px){
+        main{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            align-content:flex-start;
+            align-items:flex-start;
+        }
+        article{
+            width:350%;
+        }
+        .secondaryContent{
+            width:90%;
+        }
+        aside{
+            display:block;
+            border-radius:20px;
+            margin:45px 2% 0 2%;
+        }
+        aside img{
+            display:block;
+            position:static;
+            margin:auto;
+            max-width:70%;
+            margin-top:20px;
+            border-radius:50%;
+        }
+        aside p{
+            display:block;
+            position:static;
+            margin:auto;
+            max-width:80%;
+            font-size:0.8em;
+            margin-top:10px;
+            color:#455036;
+        }
+        aside div.linkBox{
+            width: 70%;
+            margin:auto;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-content:space-between;
+            flex-wrap:nowrap;
+            padding:20px 0 20px 0;
+        }
+        aside div.linkBox a{
+            margin:auto;
+            font-size:1.5em;
+        }
+}
+/*Desktop*/
+@media (min-width:1025px){
+    html, body{
+    width:100%;
+    }
+    main{
+        width:80%;
+        margin-left:10%;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:center;
+        align-content:flex-start;
+        align-items:flex-start;
+    }
+    article{
+        width:350%;
+        padding-top:2%;
+        border-radius:20px;
+        margin:1%;
+    }
+    .secondaryContent{
+        width:90%;
+        margin:auto;
+    }
+    article h2{
+        font-size:2.8em;
+    }
+    article p{
+        font-size:1.5em;
+    }
+    .formElement{
+        margin:0 auto 2% 5%;
+    }
+    aside{
+        display:block;
+        border-radius:20px;
+        margin:100px 2% 0 2%;
+    }
+    aside img{
+        display:block;
+        position:static;
+        margin:auto;
+        max-width:70%;
+        margin-top:20px;
+        border-radius:50%;
+    }
+    aside p{
+        display:block;
+        position:static;
+        margin:auto;
+        max-width:80%;
+        font-size:1.2em;
+        margin-top:10px;
+        color:#455036;
+    }
+    aside div.linkBox{
+        width: 70%;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-content:space-between;
+        flex-wrap:nowrap;
+        padding:20px 0 20px 0;
+    }
+    aside div.linkBox a{
+        margin:auto;
+        font-size:1.5em;
+    }
+}
+/*Logos*/
+footer .fa fa-linkedin{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}

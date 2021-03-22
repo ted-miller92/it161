@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/*Color Palette
+
+Purple: #845EC2;
+Dark: #4B4453;
+Light: #B0A8B9;
+Orange: #C34A36;
+Salmon: #FF8066;
+*/
+
+html{
+    background-color:#ccc;
+    display:block;
+    width: 100%;
+    margin: none;
+    font-size:1.5em;
+    font-family: quicksand, sans-serif;
+}
+h1{
+    background-color:white; 
+    overflow:auto;
+    margin:auto;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+main{
+    display:block;
+    background-color: white;
+    overflow:auto;
+    margin:auto;
+}
+h2{
+    display:block;
+}
+article{
+    display:block;
+    width:50%;
+    float:left;
+    margin-left:5em;
+}
+aside{
+    display:block;
+    float:right;
+    width:30%;
+    margin-right:5em;
+}
+@media only screen and (max width: 600px){
+    
+}
+
+/*For All Social Media Buttons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/*For LinkedIn button*/
+.fa-linkedin{
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}

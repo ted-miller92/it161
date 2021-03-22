@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(230, 250, 255);
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1000px;
+}
+.clients{
+    width: 500px;
+}
+table{
+    border: 2px solid rgb(150, 150, 255);
+    border-spacing: 0px;
+}
+h2{
+    color:rgb(100, 100, 100);
+}
+th{
+    border: 2px solid rgb(150, 150, 255);
+    background-color:rgb(150, 150, 255);
+    color: white;
+}
+td{
+    border: 2px solid rgb(150, 150, 255);
+}

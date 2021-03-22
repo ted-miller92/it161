@@ -1,0 +1,81 @@
+/*Color pallete
+Saffron: #ECBE35
+Citron: #899414
+Alabaster: #DCE4D8
+Sage: #C6C69A
+Rifle Green: #455036
+*/
+/*Mobile First*/
+.topNav, .topNavResponsive{
+    background-color:#899414;
+    opacity:95%;
+    position:sticky;
+    top:0;
+    list-style-type:none;
+    width:100%;
+    overflow:hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+ul.topNav{
+    max-width:100%;
+}
+.topNav li{
+    font-size:2em;
+    float:left;
+    display:block;
+    padding:10px 40px 10px 10px;
+}
+.topNav a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+.topNav a:hover{
+    color:#ECBE35;
+}
+.topNav li.secondaryLink{
+    display:none;
+}
+.topNav li.icon{
+    display:block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    padding:10px;
+}
+/*for desktop view*/
+@media(min-width: 1025px){
+    li.homeLink{
+        margin-left:10%;
+    }
+    .topNav li.secondaryLink{
+        display:block;
+    }
+    .topNav li.icon{
+        display:none;
+    }
+}
+/*drop down responsive menu*/
+.topNavResponsive li.secondaryLink{
+    display:block;
+}
+.topNavResponsive li{
+    font-size:2em;
+    float:none;
+    display:block;
+    padding:10px;
+}
+.topNavResponsive a{
+    text-decoration:none;
+    color:white;
+    text-align:left;
+}
+.topNavResponsive a:hover{
+    color:#ECBE35;
+}
+.topNavResponsive li.icon{
+    display:block;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
