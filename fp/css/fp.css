@@ -8,7 +8,6 @@ Rifle Green: #455036
 html{
     width:100%;
     font-family: 'Work Sans', sans-serif;
-    
 }
 body{
     width:100%;
@@ -17,7 +16,7 @@ body{
 }
 main{
     width:100%;
-    margin:10px auto 10px auto;
+    padding:10px auto 10px auto;
     font-size:1.3em;
     background-color:white;
 }
@@ -45,22 +44,46 @@ h2{
 }
 article{
     background-color:white;
+    /*padding:10px 0 10px 0;*/
     border-radius:0px;
 }
 article p{
     display:block;
     position:inherit;
-    margin:2% auto 2% auto;
+    padding:3%;
     font-size:1em;
-    max-width:90%;
+    line-height:1.2;
     color:#455036;
 }
 article h2{
     display:block;
     position:inherit;
-    font-size:1.5em;
-    margin:auto;
+    font-size:2em;
+    padding:3%;
     max-width:90%;
+}
+article h3{
+    display:block;
+    position:inherit;
+    font-size:1.5em;
+    padding:3%;
+    max-width:90%;
+}
+article a{
+    color:#899414;
+}
+article div.qualifications{
+    display:block;
+    background-color:#DCE4D8;
+    position:inherit;
+    padding:5% 0 5% 0;
+    font-size:1em;
+    line-height:1.2;
+    color:#455036;
+}
+ul.qualificationsList{
+    list-style:disc;
+    padding:2% 10% 2% 10%;
 }
 aside{
     display:none;
@@ -71,8 +94,8 @@ aside p{
 }
 /*Forms styles*/
 .formElement{
-    margin:auto;
-    padding:0 2% 0 2%;
+    margin:20px auto auto auto;
+    /*padding:0 2% 0 2%;*/
     align-self:center;
     max-width:100%;
 }
@@ -130,61 +153,28 @@ div#contactTed{
 }
 /*Tablet*/
 @media (min-width:480px)
-    and (max-width:1024px){
+    and (max-width:1023px){
         main{
-            display:flex;
-            flex-direction:row;
-            flex-wrap:nowrap;
-            align-content:flex-start;
-            align-items:flex-start;
-        }
-        article{
-            width:350%;
-        }
-        .secondaryContent{
             width:90%;
         }
+        article h3{
+            padding:10px 0 10px 5%;
+        }
+        article div.qualifications{
+            border-top-right-radius:30px;
+            border-bottom-right-radius:30px;
+        }
+        article p{
+            padding:0 5% 2% 10%;
+        }
         aside{
-            display:block;
-            border-radius:20px;
-            margin:45px 2% 0 2%;
-        }
-        aside img{
-            display:block;
-            position:static;
-            margin:auto;
-            max-width:70%;
-            margin-top:20px;
-            border-radius:50%;
-        }
-        aside p{
-            display:block;
-            position:static;
-            margin:auto;
-            max-width:80%;
-            font-size:0.8em;
-            margin-top:10px;
-            color:#455036;
-        }
-        aside div.linkBox{
-            width: 70%;
-            margin:auto;
-            display:flex;
-            flex-direction:row;
-            justify-content:center;
-            align-content:space-between;
-            flex-wrap:nowrap;
-            padding:20px 0 20px 0;
-        }
-        aside div.linkBox a{
-            margin:auto;
-            font-size:1.5em;
+            display:none;
         }
 }
 /*Desktop*/
-@media (min-width:1025px){
+@media (min-width:1024px){
     html, body{
-    width:100%;
+        width:100%;
     }
     main{
         width:80%;
@@ -198,19 +188,32 @@ div#contactTed{
     }
     article{
         width:350%;
-        padding-top:2%;
         border-radius:20px;
         margin:1%;
     }
-    .secondaryContent{
-        width:90%;
-        margin:auto;
-    }
     article h2{
         font-size:2.8em;
+        padding:20px 0 10px 3%;
+    }
+    article h3{
+        font-size:2em;
+        padding:20px 0 10px 3%;
     }
     article p{
-        font-size:1.5em;
+        display:block;
+        position:inherit;
+        padding:10px 5% 10px 5%;
+        font-size:1.3em;
+        line-height:1.2;
+        color:#455036;
+    }
+    article div.qualifications{
+        border-radius:30px;
+        padding:0;
+    }
+    ul.qualificationsList{
+        font-size:1.3em;
+        padding:10px 0 10px 5%;
     }
     .formElement{
         margin:0 auto 2% 5%;

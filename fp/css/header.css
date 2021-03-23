@@ -48,7 +48,7 @@ header #filter{
 }
 /*Tablet*/
 @media (min-width:480px)
-    and (max-width:1024px){
+    and (max-width:1023px){
         #homeLinkLarge{
             display:none;
         }
@@ -64,7 +64,7 @@ header #filter{
         }
 }
 /*Desktop*/
-@media (min-width: 1025px)
+@media (min-width: 1024px)
     and (max-width: 3840px){
         #homeLink{
             display:none;
@@ -83,7 +83,7 @@ header #filter{
         }
         header h1 a{
             font-size:4.6em;
-            margin-left:10%;
+            margin-left:5%;
             top:150px;
             color:#455036;
         }
@@ -93,7 +93,7 @@ header #filter{
             top:220px;
             font-size:2em;
             color:#455036;
-            margin-left:15%;
+            margin-left:10%;
         }
         header #filter{
             height:300px;

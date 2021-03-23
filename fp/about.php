@@ -22,12 +22,28 @@
         <main>
             <!--Left side-->
             <article>
-                <div class="secondaryContent">
                 <h2>About</h2>
-                <p>Born in Seattle, raised in Poulsbo and educated in Walla Walla, I am a lifelong Washingtonian and dedicated to supporting nonprofits in the Pacific Northwest. Since graduating from Whitman College with a BA in Environmental Humanities, I have worked exclusively in the nonprofit sector in Puget Sound, supporting literary arts, social services and environmental organizations.</p>
-                <p>I have experience writing grants for private foundations and county, state and federal levels of government.</p>
-                <p>In my spare time, you can find me enjoying walks around Volunteer Park, trying new recipes,  cooking and baking, hiking and camping, and spending time relaxing with a movie, a book and families and friends.
-                </p>
+                <p>Born in Seattle, raised in Poulsbo and educated in Walla Walla, I am a lifelong Washingtonian and dedicated to supporting nonprofits in the Pacific Northwest. Since graduating from Whitman College with a BA in Environmental Humanities, I have worked exclusively in the nonprofit sector in the greater Puget Sound region, supporting literary arts, social services and environmental organizations. I have experience writing grants for private foundations, corporations and county, state and federal levels of government.</p>
+                <p>I have a breadth of experience from working with varied nonprofits, from social services to regional and international conservation, and I have even supported funding for NGOs abroad. From logic models to evaluation plans, from budget development to community partnerships, I am familiar with the inner workings of program fundraising, as well as fundraising for general operating and capital improvements. I am currently a member of the Grants Professionals Association and the Puget Sound Grant Writers Association.</p>
+                <div class="qualifications">
+                    <h3>Successful Grants Include:</h3>
+                    <ul class="qualificationsList">
+                        <li>The William Randolph Hearst Foundation</li>    
+                        <li>SAFECO Foundation</li>
+                        <li>Wilburforce Foundation</li>
+                        <li>Norman Raab Foundation</li>
+                        <li>M.J. Murdock Charitable Foundation</li>
+                        <li>PACCAR Foundation</li>
+                        <li>The Grousemont Foundation</li>
+                        <li>Association of Zoos and Aquariums Saving Animals From Extinction</li>
+                        <li>King County Government</li>
+                    </ul>
+                    <h3>I also have experience writing grants for, and have pending applications with, the following:</h3>
+                    <ul class="qualificationsList">
+                        <li>The Institute of Museum and Library Services</li>
+                        <li>National Fish and Wildlife Foundation </li>
+                        <li>The Disney Conservation Fund</li>
+                    </ul>
                 </div>
             </article>
         </main>

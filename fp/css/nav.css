@@ -44,7 +44,7 @@ ul.topNav{
     padding:10px;
 }
 /*for desktop view*/
-@media(min-width: 1025px){
+@media(min-width: 1024px){
     li.homeLink{
         margin-left:10%;
     }

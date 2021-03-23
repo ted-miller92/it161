@@ -11,7 +11,7 @@
             <div id="filter"></div>
             <h1><a id="homeLink" href="index.php" title="home">L. Sewell Consulting</a></h1>
             <h1><a id="homeLinkLarge" href="index.php" title="home">Lauren Sewell Consulting</a></h1>
-            <h2>Compelling grant writing, research and strategy development for diverse Northwest nonprofits</h2>
+            <h2>Compelling grant writing, research and systems development for diverse Northwest nonprofits</h2>
             <img src="images/birch-background-hd-3840x2400-104983.jpg" alt="birches"> 
         </header>
     </body>

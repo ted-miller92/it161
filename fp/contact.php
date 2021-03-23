@@ -35,8 +35,8 @@
 
                 include 'includes/contact_include.php'; #site keys & code here
     
-                $toAddress = "lauren.sewell@protonmail.com";  //place your/your client's email address here
-                $toName = "Lauren Sewell"; //place your client's name here
+                $toAddress = "theodoremiller92@protonmail.com";  //place your/your client's email address here
+                $toName = "Ted Miller"; //place your client's name here
                 $website = "Contact form test";  //place NAME of your client's website
 
                 //echo loadContact('simple.php');#demonstrates a simple contact form
@@ -46,7 +46,7 @@
             <!--Right side-->
             <aside>
                 <img src="images/lauren.jpg">
-                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</p>
+                <p>Lauren is a Northwest grant writer passionate about social services, conservation, literary arts and programs that improve the fabric of the Puget Sound region</p>
                 <div class="linkBox">
                     <a href="#" class="fa fa-linkedin"></a>
                     <a href="#" class="fa fa-instagram"></a>
