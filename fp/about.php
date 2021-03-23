@@ -24,7 +24,7 @@
             <article>
                 <h2>About</h2>
                 <p>Born in Seattle, raised in Poulsbo and educated in Walla Walla, I am a lifelong Washingtonian and dedicated to supporting nonprofits in the Pacific Northwest. Since graduating from Whitman College with a BA in Environmental Humanities, I have worked exclusively in the nonprofit sector in the greater Puget Sound region, supporting literary arts, social services and environmental organizations. I have experience writing grants for private foundations, corporations and county, state and federal levels of government.</p>
-                <p>I have a breadth of experience from working with varied nonprofits, from social services to regional and international conservation, and I have even supported funding for NGOs abroad. From logic models to evaluation plans, from budget development to community partnerships, I am familiar with the inner workings of program fundraising, as well as fundraising for general operating and capital improvements. I am currently a member of the Grants Professionals Association and the Puget Sound Grant Writers Association.</p>
+                
                 <div class="qualifications">
                     <h3>Successful Grants Include:</h3>
                     <ul class="qualificationsList">
@@ -45,6 +45,7 @@
                         <li>The Disney Conservation Fund</li>
                     </ul>
                 </div>
+                <p>I have a breadth of experience from working with varied nonprofits, from social services to regional and international conservation, and I have even supported funding for NGOs abroad. From logic models to evaluation plans, from budget development to community partnerships, I am familiar with the inner workings of program fundraising, as well as fundraising for general operating and capital improvements. I am currently a member of the Grants Professionals Association and the Puget Sound Grant Writers Association.</p>
             </article>
         </main>
         <?php include "includes/footer.php"?>

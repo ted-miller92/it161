@@ -21,7 +21,7 @@ header{
 header img{
     z-index:-1;
     overflow: hidden;
-    max-width:100%;
+    /*max-width:100%;*/
 }
 header h1 a{
     position:absolute;
@@ -79,7 +79,7 @@ header #filter{
         header img{
             z-index:-1;
             overflow: hidden;
-            max-width:100%;
+            /*max-width:100%;*/
         }
         header h1 a{
             font-size:4.6em;
